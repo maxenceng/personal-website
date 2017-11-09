@@ -1,0 +1,36 @@
+{
+  "name": "maxenceng-portfolio",
+  "description": "Maxenceng's Portfolio",
+  "version": "1.0.0",
+  "author": "Maxence Grosjean <maxence.grosjean@cpe.fr>",
+  "dependencies": {
+    "bulma": "^0.6.0",
+    "gatsby": "^1.9.86",
+    "gatsby-link": "^1.6.23",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.12",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "react-transition-group": "^2.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "install:eslint": "npm info eslint-config-airbnb@latest peerDependencies --json | command sed 's/[\\{\\},]//g ; s/: /@/g' | xargs yarn add --dev eslint-config-airbnb@latest",
+    "test:eslint": "eslint gatsby-config.js src public",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "test": "yarn test:eslint"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}

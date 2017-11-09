@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2,
+    "spaced-comment": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-array-index-key": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "max-len": "off"
+  },
+  "env": {
+    "browser": true
+  }
+}
