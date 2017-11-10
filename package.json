@@ -24,13 +24,15 @@
     "test:eslint": "eslint gatsby-config.js src public",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "test": "yarn test:eslint"
+    "test": "yarn test:eslint",
+    "deploy": "gatsby build && cp CNAME public/ && surge public/"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-react": "^7.4.0",
+    "surge": "^0.19.0"
   }
 }
